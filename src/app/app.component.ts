@@ -8,7 +8,7 @@ import { CommonServiceService } from './common-service.service';
 })
 export class AppComponent implements OnInit {
   title = 'myApp';
-  public imagePath: any
+  public imagePath: any;
   constructor(private commonService: CommonServiceService) { }
   public onFileSelected(event: any) {
     const file = event.target.files[0];
